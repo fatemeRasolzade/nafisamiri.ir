@@ -10,28 +10,18 @@ function Home() {
     <div className="home">
       <div className="about">
         <div class="nafis-img-container">
-          <img src={me} style={{ width: " 250px", borderRadius: "30px" }} />
+          <img src={me} style={{ width: " 250px", borderRadius: "30px" }} alt="nafis" />
         </div>
         <h2> Hi, My Name is Nafis</h2>
         <div className="prompt">
-          <p>
-            A software developer with a strong passion for Human Computer Interaction.
-          </p>
-          <a
-            class="social"
-            href="https://www.linkedin.com/in/nafiseamiri/"
-            target="_blank"
-          >
+          <p>A software developer with a strong passion for Human Computer Interaction.</p>
+          <a class="social" rel="noreferrer" href="https://www.linkedin.com/in/nafiseamiri/" target="_blank">
             <LinkedInIcon />
           </a>
-          <a
-            href="https://github.com/nafisamiri"
-            target="_blank"
-            class="social"
-          >
+          <a href="https://github.com/nafisamiri" rel="noreferrer" target="_blank" class="social">
             <GithubIcon />
           </a>
-          <a href="mailto:nafiseamiriemami@gmail.com">
+          <a href="mailto:nafiseamiriemami@gmail.com" rel="noreferrer">
             <EmailIcon />
           </a>
         </div>
@@ -41,10 +31,7 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
-            <span>
-              ReactJS, Redux, HTML5, CSS3, NPM, BootStrap, MaterialUI, Yarn,
-              TailwindCSS, StyledComponents, SocketConnection, Jest.
-            </span>
+            <span>ReactJS, Redux, HTML5, CSS3, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents, SocketConnection, Jest.</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>

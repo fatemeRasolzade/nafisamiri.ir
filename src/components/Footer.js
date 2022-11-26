@@ -12,6 +12,7 @@ function Footer() {
             class="social"
             href="https://www.linkedin.com/in/nafiseamiri/"
             target="_blank"
+            rel="noreferrer"
           >
             <LinkedInIcon />
           </a>
