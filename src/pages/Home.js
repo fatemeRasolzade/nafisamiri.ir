@@ -9,16 +9,16 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <div class="nafis-img-container">
+        <div className="nafis-img-container">
           <img src={me} style={{ width: " 250px", borderRadius: "30px" }} alt="nafis" />
         </div>
         <h2> Hi, My Name is Nafis</h2>
         <div className="prompt">
           <p>A software developer with a strong passion for Human Computer Interaction.</p>
-          <a class="social" rel="noreferrer" href="https://www.linkedin.com/in/nafiseamiri/" target="_blank">
+          <a className="social" rel="noreferrer" href="https://www.linkedin.com/in/nafiseamiri/" target="_blank">
             <LinkedInIcon />
           </a>
-          <a href="https://github.com/nafisamiri" rel="noreferrer" target="_blank" class="social">
+          <a href="https://github.com/nafisamiri" rel="noreferrer" target="_blank" className="social">
             <GithubIcon />
           </a>
           <a href="mailto:nafiseamiriemami@gmail.com" rel="noreferrer">

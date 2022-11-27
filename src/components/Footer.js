@@ -9,7 +9,7 @@ function Footer() {
       <div className="socialMedia">
         {/* <TwitterIcon /> */}
         <a
-            class="social"
+            className="social"
             href="https://www.linkedin.com/in/nafiseamiri/"
             target="_blank"
             rel="noreferrer"
